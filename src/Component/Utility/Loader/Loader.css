@@ -1,0 +1,35 @@
+.loader_full {
+    position: fixed;
+    background: #DFE1EB;
+    width: 100%;
+    height: 100%;
+    margin: none;
+    padding: none;
+    z-index: 99;
+    right: 0;
+    top: 0;
+}
+
+.loader {
+    position: absolute;
+    background: #DFE1EB;
+    width: 100%;
+    height: 100%;
+    margin: none;
+    padding: none;
+    z-index: 99;
+    right: 0;
+    top: 0;
+}
+
+.spinner_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+}

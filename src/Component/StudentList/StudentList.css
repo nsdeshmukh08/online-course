@@ -1,0 +1,34 @@
+.student_info{
+    display: flex;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+.name {
+    flex: 4 ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #A6ACBE;
+}
+
+.marks {
+    flex:1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.icon {
+    flex: 1;
+}

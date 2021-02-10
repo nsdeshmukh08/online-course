@@ -1,0 +1,57 @@
+
+.students {
+    margin-top: 5px;;
+    max-width: 395px;
+    height: 60vh;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.students_header{
+    display: flex;
+    position: relative;
+}
+
+.students_title {
+    flex: 2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    margin-top: 8px;
+    padding: 10px;
+    color: black;
+}
+
+.students_filter {
+    flex:1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    padding-top: 10px;
+    margin-top: 8px;
+}
+
+.select{
+    border: 0px;
+    outline: 0px;
+    color:#A6ACBE;
+}
+
+.student_list{
+    overflow-x: auto;
+    height: 50vh;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #DADCE4; 
+    border-radius: 3px;
+  }

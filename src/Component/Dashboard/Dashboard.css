@@ -1,0 +1,29 @@
+
+
+.dashboard{
+    background: #DFE1EB;
+    padding-left: 4vw;
+    padding-top: 14vh;
+}
+
+.dashboard_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.dashboard_subtext{
+    /* position: absolute; */
+    /* height: 16px; */
+    /* left: 160px; */
+    /* top: 189px; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #A6ACBE;
+}

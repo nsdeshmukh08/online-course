@@ -1,0 +1,22 @@
+.logo_container {
+    width: 7vw;
+    height: 13%;
+    background: #6F52ED;
+    position: relative;
+}
+
+.branding_logo{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.navigation_container{
+    background: #373B53;
+    height: 87%;
+}
+@media screen and (max-width: 800px) {
+    .leftside_nav{
+        display: none;
+    }
+}
